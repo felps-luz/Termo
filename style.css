@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: white;
+    font: 700 23px 'Verdana';
+    background-color: rgba(57, 24, 24, 0.607);
+}
+.container{
+    margin-left: auto;
+    margin-right:  auto;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.div-coluna{
+    margin-right: 10px;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: rgb(33, 33, 33);
+    font: 700 30px 'Verdana';
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+.div-linha{
+    
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+.certo{
+    background-color: green;
+
+}
+.errado{
+    background-color: red;
+}
+.titulo{
+    margin-bottom: 50px;
+}
+button{
+    display: flex;
+    margin-right: 10px;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: rgb(33, 33, 33);
+    width: 50px;
+    height: 50px;
+    color: white;
+    align-items: center;
+    font: 700 20px 'Verdana';
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#primeiraLinha {
+    display: flex;
+}
+#apagar-e-enter button{
+    width: 80px;
+}
+#segundaLinha{
+    display: flex;
+}
+#terceiraLinha{
+    display: flex;
+}
+#apagar-e-enter{
+    display: flex;
+    
+}
+.teclado-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
